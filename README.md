@@ -4,15 +4,16 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of stat340 is to ...
+The goal of stat340 is to provide data and f8unctions for the NMBU course Stat 340.
 
 ## Installation
 
-You can install the released version of stat340 from [CRAN](https://CRAN.R-project.org) with:
 
-``` r
-install.packages("stat340")
-```
+ # First install devtools if needed
+if(!require(devtools)) install.packages("devtools")
+
+# Install dvir from GitHub
+devtools::install_github("thoree/stat340")
 
 ## Example
 
