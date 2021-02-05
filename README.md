@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of stat340 is to provide data and f8unctions for the NMBU course Stat 340.
+The goal of stat340 is to provide data and functions for the NMBU course Stat 340.
 
 ## Installation
 
@@ -15,12 +15,16 @@ if(!require(devtools)) install.packages("devtools")
 # Install dvir from GitHub
 devtools::install_github("thoree/stat340")
 
-## Example
+## Contents
 
-This is a basic example which shows you how to solve a common problem:
+Currently `stat340` contains the data sets
 
-``` r
-library(stat340)
-## basic example code
-```
+   * `bears`
+   * `birth`
+   * `bodydata`
+   * `weights`
+   * `yields` 
+   * `yields.unstacked`
+   
+  
 
