@@ -1,5 +1,5 @@
 Package: stat340
-Title: Data and fumctopns for Stat340 at NMBU
+Title: Data and functions for Stat340 at NMBU
 Version: 1.0.0.9000
 Authors@R: 
     person(given = "Thore",

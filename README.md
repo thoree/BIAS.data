@@ -13,6 +13,8 @@ The goal of stat340 is to provide data and functions for the NMBU course Stat 34
 if(!require(devtools)) install.packages("devtools")
 
 # Install dvir from GitHub
+
+# install.packages("devtools") # install devtools if needed
 devtools::install_github("thoree/stat340")
 
 ## Contents

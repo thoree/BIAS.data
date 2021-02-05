@@ -1,3 +1,54 @@
+#' taxa data
+#'
+#' 120 observations on 7 variables
+#'
+#' @format A data frame
+#'
+#' @examples
+#' summary(taxa)
+"taxa"
+
+
+#' Lizard data
+#'
+#' 25 observations on 4 variables
+#'
+#' @format A data frame
+#'
+#' @examples
+#' summary(Lizard)
+"Lizard"
+
+#' D data
+#'
+#' Distance matrix
+#'
+#' @format A data frame
+#'
+#' @examples
+#' summary(D)
+"D"
+
+#' Hald's cement data
+#'
+#' A dataset with 13 observations and 5 variables
+#'
+#' @format A data frame
+#'
+#' @examples
+#' summary(Hald.Cement)
+"Hald.Cement"
+
+#' TrackRecords data
+#'
+#' A dataset with 54 observations and 8 variables, 100m  -marathon recorrds
+#'
+#' @format A data frame
+#'
+#' @examples
+#' summary(TrackRecords)
+"TrackRecords"
+
 #' birth data
 #'
 #' A dataset with 189 observations and 5 variables
