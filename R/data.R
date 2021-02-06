@@ -1,3 +1,90 @@
+#' Orthodont.unstacked data
+#'
+#' 27 observations on 5 five variables
+#'
+#' @format A data frame
+#'
+"Orthodont.unstacked"
+
+#' sireunstacked data
+#'
+#' 9 observations
+#'
+#' @format A data frame
+#'
+"sireunstacked"
+
+#' sire data
+#'
+#' 9 observations
+#'
+#' @format A data frame
+#'
+"sire"
+
+#' SireHerd data
+#'
+#' 24 observations
+#'
+#' @format A data frame
+#'
+"SireHerd"
+
+#' infection data
+#'
+#' 181 observations on 4 variables
+#'
+#' @format A data frame
+#'
+"infection"
+
+#' fertilizer data
+#'
+#' 60 observations on 4 variables
+#'
+#' @format A data frame
+#'
+"fertilizer"
+
+#' island data
+#'
+#' 50 observations on 3 variables
+#'
+#' @format A data frame
+"island"
+
+#' numbers data
+#'
+#' 8 observations on 3 variables giving sex ratios
+#'
+#' @format A data frame
+#'
+"numbers"
+
+#' small data
+#'
+#' 10 observations on 2 variables
+#'
+#' @format A data frame
+#'
+"small"
+
+#' smallProp data
+#'
+#' 3 lines
+#'
+#' @format A data frame
+#'
+"smallProp"
+
+#' species data
+#'
+#' 90 observations on 3 variables
+#'
+#' @format A data frame
+#'
+"species"
+
 #' taxa data
 #'
 #' 120 observations on 7 variables
