@@ -9,7 +9,7 @@ The goal of stat340 is to provide data and functions for the NMBU course Stat 34
 ## Installation
 
 
- # First install devtools if needed
+First install devtools if needed
 if(!require(devtools)) install.packages("devtools")
 
 
