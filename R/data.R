@@ -1,6 +1,6 @@
 #' Orthodont.unstacked data
 #'
-#' 27 observations on 5 five variables
+#' 27 observations and 5 five variables
 #'
 #' @format A data frame
 #'
@@ -32,30 +32,32 @@
 
 #' infection data
 #'
-#' 181 observations on 4 variables
+#' 181 observations and 4 variables
 #'
 #' @format A data frame
-#'
+#'  @examples
+#'  plot(infection)
 "infection"
 
 #' fertilizer data
 #'
-#' 60 observations on 4 variables
+#' 60 observations and 4 variables
 #'
 #' @format A data frame
-#'
+#' @examples
+#' str(fertilizer)
 "fertilizer"
 
 #' island data
 #'
-#' 50 observations on 3 variables
+#' 50 observations and 3 variables
 #'
 #' @format A data frame
 "island"
 
 #' numbers data
 #'
-#' 8 observations on 3 variables giving sex ratios
+#' 8 observations and 3 variables giving sex ratios
 #'
 #' @format A data frame
 #'
@@ -63,7 +65,7 @@
 
 #' small data
 #'
-#' 10 observations on 2 variables
+#' 10 observations and 2 variables
 #'
 #' @format A data frame
 #'
@@ -79,7 +81,7 @@
 
 #' species data
 #'
-#' 90 observations on 3 variables
+#' 90 observations and 3 variables
 #'
 #' @format A data frame
 #'
@@ -87,7 +89,7 @@
 
 #' taxa data
 #'
-#' 120 observations on 7 variables
+#' 120 observations and 7 variables
 #'
 #' @format A data frame
 #'
@@ -98,7 +100,7 @@
 
 #' Lizard data
 #'
-#' 25 observations on 4 variables
+#' 25 observations and 4 variables
 #'
 #' @format A data frame
 #'
@@ -108,12 +110,12 @@
 
 #' D data
 #'
-#' Distance matrix
+#' A 4 by 4 distance matrix
 #'
 #' @format A data frame
 #'
 #' @examples
-#' summary(D)
+#' plot(hclust(as.dist(D), method = "single"))
 "D"
 
 #' Hald's cement data
@@ -138,7 +140,8 @@
 
 #' birth data
 #'
-#' A dataset with 189 observations and 5 variables
+#' The dataset records of 189 birth weights
+#' from Massachusetts, USA, and some additional variables.
 #'
 #' @format A data frame with 4 four continuous variables
 #'
@@ -149,13 +152,13 @@
 #'    * `BTW` birth weight in g
 #'
 #' @examples
-#' summary(birth)
+#' lm(BWT ~ LWT*SMK, data = birth)
 "birth"
 
 
 #' bodydata
 #'
-#' A dataset with 407 observations on variables
+#' A dataset with 407 observations and 5 variables
 #'
 #' @format A data frame with 4 four continuous variables
 #'
@@ -165,18 +168,18 @@
 #'    * `Circumference` in cm
 #'
 #' @examples
-#' summary(bodydata)
+#' lm(Weight ~ Height + Age, data = bodydata)
 "bodydata"
 
 #' bears data
 #'
-#' A dataset with 24 observations on 12 variables
+#' A dataset with 24 observations and 12 variables
 #'
 #' @format A data frame with 12 four continuous variables
 #'
 #'
 #' @examples
-#' summary(bears)
+#' res <- lm(Weight ~ Length + I(Length^2), data = bears)
 "bears"
 
 #' yields data
