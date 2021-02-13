@@ -18,9 +18,10 @@ A data frame with 4 four continuous variables
 birth
 }
 \description{
-A dataset with 189 observations and 5 variables
+The dataset records of 189 birth weights
+from Massachusetts, USA, and some additional variables.
 }
 \examples{
-summary(birth)
+lm(BWT ~ LWT*SMK, data = birth)
 }
 \keyword{datasets}

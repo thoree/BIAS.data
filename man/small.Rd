@@ -11,6 +11,6 @@ A data frame
 small
 }
 \description{
-10 observations on 2 variables
+10 observations and 2 variables
 }
 \keyword{datasets}

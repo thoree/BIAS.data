@@ -11,9 +11,9 @@ A data frame with 12 four continuous variables
 bears
 }
 \description{
-A dataset with 24 observations on 12 variables
+A dataset with 24 observations and 12 variables
 }
 \examples{
-summary(bears)
+res <- lm(Weight ~ Length + I(Length^2), data = bears)
 }
 \keyword{datasets}

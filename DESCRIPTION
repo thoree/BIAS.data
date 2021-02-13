@@ -5,8 +5,7 @@ Authors@R:
     person(given = "Thore",
            family = "Egeland",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "thore.egeland@gmail.com")
 Description: Contains data and functions for the NMBU course Stat 340.
 License: MIT + file LICENSE
 Encoding: UTF-8

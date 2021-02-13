@@ -11,6 +11,9 @@ A data frame
 fertilizer
 }
 \description{
-60 observations on 4 variables
+60 observations and 4 variables
+}
+\examples{
+str(fertilizer)
 }
 \keyword{datasets}

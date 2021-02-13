@@ -11,6 +11,6 @@ A data frame
 numbers
 }
 \description{
-8 observations on 3 variables giving sex ratios
+8 observations and 3 variables giving sex ratios
 }
 \keyword{datasets}

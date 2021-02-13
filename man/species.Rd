@@ -11,6 +11,6 @@ A data frame
 species
 }
 \description{
-90 observations on 3 variables
+90 observations and 3 variables
 }
 \keyword{datasets}

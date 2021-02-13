@@ -11,7 +11,7 @@ A data frame
 taxa
 }
 \description{
-120 observations on 7 variables
+120 observations and 7 variables
 }
 \examples{
 summary(taxa)

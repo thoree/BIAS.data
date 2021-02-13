@@ -11,7 +11,7 @@ A data frame
 Lizard
 }
 \description{
-25 observations on 4 variables
+25 observations and 4 variables
 }
 \examples{
 summary(Lizard)

@@ -11,9 +11,9 @@ A data frame
 D
 }
 \description{
-Distance matrix
+A 4 by 4 distance matrix
 }
 \examples{
-summary(D)
+plot(hclust(as.dist(D), method = "single"))
 }
 \keyword{datasets}

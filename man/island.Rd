@@ -11,6 +11,6 @@ A data frame
 island
 }
 \description{
-50 observations on 3 variables
+50 observations and 3 variables
 }
 \keyword{datasets}

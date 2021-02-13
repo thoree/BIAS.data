@@ -17,9 +17,9 @@ A data frame with 4 four continuous variables
 bodydata
 }
 \description{
-A dataset with 407 observations on variables
+A dataset with 407 observations and 5 variables
 }
 \examples{
-summary(bodydata)
+lm(Weight ~ Height + Age, data = bodydata)
 }
 \keyword{datasets}

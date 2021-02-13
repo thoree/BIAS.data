@@ -6,6 +6,14 @@
 #'
 "Orthodont.unstacked"
 
+#' iris.train data
+#'
+#' 80 observations from the iris data
+#'
+#' @format A data frame
+#'
+"iris.train"
+
 #' sireunstacked data
 #'
 #' 9 observations

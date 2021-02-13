@@ -6,11 +6,13 @@
 \title{infection data}
 \format{
 A data frame
+@examples
+plot(infection)
 }
 \usage{
 infection
 }
 \description{
-181 observations on 4 variables
+181 observations and 4 variables
 }
 \keyword{datasets}
