@@ -32,7 +32,7 @@ summary(logit1)
 # Probably reason, observation 7 is an outlier as seen from
 plot(logit1, which = 1)
 
-# We model dispersion, more reasonable results:
+# We model dispersion, more reasonable results, p-value = 4.57e-05:
 logit2 <- glm(Success ~ x3, data = quasibin, family = "quasibinomial")
 summary(logit2)
 }

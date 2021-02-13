@@ -33,6 +33,14 @@
 #'
 "iris.train"
 
+#' Orthodont.unstacked data
+#'
+#' 27 observations, 5 variables
+#'
+#' @format A data frame
+#'
+"Orthodont.unstacked"
+
 #' sireunstacked data
 #'
 #' 9 observations

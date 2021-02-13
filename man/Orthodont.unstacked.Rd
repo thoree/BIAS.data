@@ -11,6 +11,6 @@ A data frame
 Orthodont.unstacked
 }
 \description{
-27observations, 5 variables from the iris data
+27 observations, 5 variables
 }
 \keyword{datasets}
