@@ -11,6 +11,6 @@ A data frame
 iris.train
 }
 \description{
-80 observations from the iris data
+80 observations, 5 variables from the iris data
 }
 \keyword{datasets}

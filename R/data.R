@@ -1,10 +1,29 @@
-#' Orthodont.unstacked data
+#' quasibin data
 #'
-#' 27 observations and 5 five variables
-#'
+#' 38 observations and 4 five variables (renamed since data is not open)
 #' @format A data frame
 #'
-"Orthodont.unstacked"
+#'    * `Success` binary 0-1 response
+#'    * `x1` continuous response
+#'    * `x2` continuous response
+#'    * `x3` continuous response
+#' @examples
+#' # First, look at data
+#' table(quasibin$Success)
+#' boxplot(quasibin$x3 ~ quasibin$Success)
+#'
+#' # Logistic regression
+#' logit1 <- glm(Success ~ x3, data = quasibin, family = "binomial")
+#' summary(logit1)
+#'
+#' # Suprisingly, `x3` is not a significant predictor.
+#' # Probably reason, observation 7 is an outlier as seen from
+#' plot(logit1, which = 1)
+#'
+#' # We model dispersion, more reasonable results, p-value = 4.57e-05:
+#' logit2 <- glm(Success ~ x3, data = quasibin, family = "quasibinomial")
+#' summary(logit2)
+"quasibin"
 
 #' iris.train data
 #'
