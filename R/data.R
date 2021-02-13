@@ -8,7 +8,7 @@
 
 #' iris.train data
 #'
-#' 80 observations from the iris data
+#' 80 observations, 5 variables from the iris data
 #'
 #' @format A data frame
 #'
