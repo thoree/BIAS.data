@@ -33,6 +33,18 @@
 #'
 "iris.train"
 
+#' yields data in R book, Ch 19.4, called `splityield` here
+#'
+#' 72 observations, 5 variables
+#'
+#' @format A data frame
+#' @examples
+#' library(nlme)
+#' data(splityield)
+#' model <- lme(yield ~ irrigation*density*fertilizer, random = ~1|block/irrigation/density, data = splityield)
+#' summary(model)
+"splityield"
+
 #' Orthodont.unstacked data
 #'
 #' 27 observations, 5 variables
