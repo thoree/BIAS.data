@@ -33,6 +33,14 @@
 #'
 "iris.train"
 
+#' litter data
+#'
+#' 60 observations, 3 variables
+#'
+#' @format A data frame
+#'
+"litter"
+
 #' yields data in R book, Ch 19.4, called `splityield` here
 #'
 #' 72 observations, 5 variables

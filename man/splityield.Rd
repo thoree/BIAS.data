@@ -3,7 +3,7 @@
 \docType{data}
 \name{splityield}
 \alias{splityield}
-\title{yields data in R book, Ch 19.4, called \code{splityield}}
+\title{yields data in R book, Ch 19.4, called \code{splityield} here}
 \format{
 A data frame
 }
@@ -16,7 +16,7 @@ splityield
 \examples{
 library(nlme)
 data(splityield)
-model<-lme(yield ~ irrigation*density*fertilizer, random = ~1|block/irrigation/density, data = splityield)
+model <- lme(yield ~ irrigation*density*fertilizer, random = ~1|block/irrigation/density, data = splityield)
 summary(model)
 }
 \keyword{datasets}
