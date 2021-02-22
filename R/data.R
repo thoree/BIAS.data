@@ -39,6 +39,11 @@
 #'
 #' @format A data frame
 #'
+#' @examples
+#' library(lme4)
+#' data(litter)
+#' mod <-lmer(Size ~ 1+ (1|Boar) + (1|Farm) + (1|Boar:Farm), data =litter)
+#' summary(mod)
 "litter"
 
 #' yields data in R book, Ch 19.4, called `splityield` here

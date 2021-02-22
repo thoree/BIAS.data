@@ -13,4 +13,10 @@ litter
 \description{
 60 observations, 3 variables
 }
+\examples{
+library(lme4)
+data(litter)
+mod <-lmer(Size ~ 1+ (1|Boar) + (1|Farm) + (1|Boar:Farm), data =litter)
+summary(mod)
+}
 \keyword{datasets}
