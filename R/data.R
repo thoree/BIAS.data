@@ -75,6 +75,11 @@
 #' options(contrasts = c("contr.sum","contr.poly"))
 #' LinearModel.2 <- lm(REF ~ Sort, data = Pear2011)
 #' summary(LinearModel.2)
+#'
+#' # The following hack improves the output
+#' colnames(contrasts(Pear2011$Sort)) <- levels(Pear2011$Sort)[1:3]
+#' LinearModel.2 <- lm(REF ~ Sort, data = Pear2011)
+#' summary(LinearModel.2)
 "Pear2011"
 
 #' yields data in R book, Ch 19.4, called `splityield` here
