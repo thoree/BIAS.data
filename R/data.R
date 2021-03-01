@@ -67,7 +67,7 @@
 #'
 #' @format A data frame with
 #'  * `Sort` Character.
-#'  * `Year` Double. The number deaths from Cardiac Hearth Disease (CHD) per 100000.
+#'  * `Year` Double.
 #'  * `REF` Double
 #'
 #' @examples

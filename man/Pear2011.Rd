@@ -8,7 +8,7 @@
 A data frame with
 \itemize{
 \item \code{Sort} Character.
-\item \code{Year} Double. The number deaths from Cardiac Hearth Disease (CHD) per 100000.
+\item \code{Year} Double.
 \item \code{REF} Double
 }
 }
