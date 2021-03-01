@@ -75,9 +75,6 @@
 #' options(contrasts = c("contr.sum","contr.poly"))
 #' LinearModel.2 <- lm(REF ~ Sort, data = Pear2011)
 #' summary(LinearModel.2)
-#' # From
-#' contrasts(Pear2011$Sort)
-#' # We see that Sort1 = KvedeA, Sort2 = kvedeadams, Sort3 = KvedeC
 "Pear2011"
 
 #' yields data in R book, Ch 19.4, called `splityield` here
