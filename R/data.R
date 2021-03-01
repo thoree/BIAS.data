@@ -46,6 +46,40 @@
 #' summary(mod)
 "litter"
 
+#' smoke data, Exam Stat 340 2021-05-28, Exer 1
+#'
+#' Data used in Exercise 1, Exam Stat 340 2018-05-28. 20 observations of three
+#' variables.
+#'
+#' @format A data frame with
+#'  * `x` Double. Average number of cigarettes per person per year.
+#'  * `y` Double. The number deaths from Cardiac Hearth Disease (CHD) per 100000.
+#'  * `country` Character
+#'
+#' @examples
+#' lm(y ~ x, data = smoke)
+"smoke"
+
+#' Pear2011 data, Exam Stat 340 2017-05-19, Exer 1
+#'
+#' Data used in Exercise 1, Exam Stat 340 2021-05-28. 24 observations of three
+#' variables.
+#'
+#' @format A data frame with
+#'  * `Sort` Character.
+#'  * `Year` Double. The number deaths from Cardiac Hearth Disease (CHD) per 100000.
+#'  * `REF` Double
+#'
+#' @examples
+#' # Table 1b, Exam Stat 340 2017-05-19
+#' options(contrasts = c("contr.sum","contr.poly"))
+#' LinearModel.2 <- lm(REF ~ Sort, data = Pear2011)
+#' summary(LinearModel.2)
+#' # From
+#' contrasts(Pear2011$Sort)
+#' # We see that Sort1 = KvedeA, Sort2 = kvedeadams, Sort3 = KvedeC
+"Pear2011"
+
 #' yields data in R book, Ch 19.4, called `splityield` here
 #'
 #' 72 observations, 5 variables
