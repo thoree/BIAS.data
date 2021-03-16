@@ -33,6 +33,35 @@
 #'
 "iris.train"
 
+#' Birds data
+#'
+#' Birds were observed in 10 km2 squares across entire mainland Norway,
+#' which was divided into 3163 squares in total.
+#' Every square is considered one variable. We
+#' consider the 25 most abundant winter bird species in Norway.
+#'
+#' @format A data frame with 25 rows (one for each bird species) and 3163 columns.
+#' The value reflects the largest simultaneous count
+#' of a given bird species in a square region .
+#' @seealso `Birds4`
+#'
+"Birds"
+
+#' Birds4 data
+#'
+#' Birds were observed in 10 km2 squares across entire mainland Norway,
+#' which was divided into 3163 squares in total.
+#' Every square is considered one variable. We
+#' consider 4 winter bird species in Norway.
+#'
+#' @format A data frame with 4 rows (one for each bird species) and 3163 columns.
+#' The value reflects the largest simultaneous count
+#' of a given bird species in a square region.
+#'
+#' @seealso `Birds`
+#'
+"Birds4"
+
 #' litter data
 #'
 #' 60 observations, 3 variables
@@ -93,6 +122,17 @@
 #' model <- lme(yield ~ irrigation*density*fertilizer, random = ~1|block/irrigation/density, data = splityield)
 #' summary(model)
 "splityield"
+
+#' trackfieldrecords
+#'
+#' Data for men and women
+#'
+#' @format A list with two elements, `runMen` and `runWomen`
+#' @examples
+#' data(trackfieldrecords)
+#' clust <-hclust(dist(runWomen[,-8]), method = "average")
+#' plot(clust, hang = -1, xlab = "", sub ="", cex = 0.6, labels = runWomen[,8])
+"trackfieldrecords"
 
 #' Orthodont.unstacked data
 #'
