@@ -1,3 +1,19 @@
+#' car data
+#'
+#' A data set with predictors for car prices
+#'
+#' @format A data frame, 30 observations on 10 variables
+#'
+"car"
+
+#' foods data
+#'
+#' A data set containing nutritional variables
+#'
+#' @format A data frame, 15 observations on 17 variables
+#'
+"foods"
+
 #' Allele frequencies
 #'
 #' A dataset containing allele frequencies for 198 markers.
