@@ -1,3 +1,31 @@
+#' poems.test data
+#'
+#' The data frame poems contains letter frequencies collected from 22 poems written by either
+#' William Shakespeare (1564–1616), William Blake (1757–1827), and Thomas Stearns Eliot (1888–1965).
+#'
+#' @format A data frame, 22 observations on 31 variables
+#'
+"poems"
+
+#' poems.test data
+#'
+#' The data frame poems contains letter frequencies collected from 22 poems written by either
+#' William Shakespeare (1564–1616), William Blake (1757–1827), and Thomas Stearns Eliot (1888–1965).
+#'
+#' @format A data frame, 22 observations on 31 variables
+#'
+"poems.test"
+
+#' grades data
+#'
+#' A data set with grades on three subjects, scored from 0 (worst)
+#' to 20 (best)
+#'
+#' @format A data frame, 395 observations on 3 variables
+#'
+"grades"
+
+
 #' car data
 #'
 #' A data set with predictors for car prices
