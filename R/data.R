@@ -1,3 +1,26 @@
+#' city data
+#' Independent measurements of chlorine
+#' (ppm parts per million) were taken from 3 large cities:
+#'
+#' @format A data frame, 20 observations on 3 variables
+#' @examples
+#' citydata <- stack(city)
+#' colnames(citydata) <- c("y", "city")
+"city"
+
+
+#' exer data
+#' The data are from statistics.ats.ucla.edu.
+#' The data called exer, consists of people who were randomly assigned to
+#' two different diets: low-fat and not low-fat and three different
+#' types of exercise: at rest, walking leisurely and running.
+#' Their pulse rate was measured at three different time
+#' points during their assigned exercise: at 1 minute, 15 minutes and 30 minutes.
+#'
+#' @format A data frame, 90 observations on 5 variables
+#'
+"exer"
+
 #' poems.test data
 #'
 #' The data frame poems contains letter frequencies collected from 22 poems written by either
