@@ -5,15 +5,29 @@
 \alias{fertilizer}
 \title{fertilizer data}
 \format{
-A data frame
+A data frame with variables
+\itemize{
+\item root: Continuous. Length of \code{plant}.
+\item week: Integer. Time of measurement.
+\item plant: Factor. ID for plant
+\item fertilizer. Factor with values added or control.
+}
+}
+\source{
+\verb{The R book}, M.J. Crawley, Wiley, 2012.
 }
 \usage{
 fertilizer
 }
 \description{
-60 observations and 4 variables
+The length of plants as measured by \code{root} is recorded for
+60 plants, each plant observed at \code{week} 2, 4, ..., 10.
+30 plants have fertilizer added, 30 are controls
 }
 \examples{
-str(fertilizer)
+library(nlme)
+res <- lme(fixed = root ~ fertilizer,
+       random = ~ week | plant,
+       data = fertilizer)
 }
 \keyword{datasets}

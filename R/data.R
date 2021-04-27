@@ -253,11 +253,24 @@
 
 #' fertilizer data
 #'
-#' 60 observations and 4 variables
+#' The length of plants as measured by `root` is recorded for
+#' 60 plants, each plant observed at `week` 2, 4, ..., 10.
+#' 30 plants have fertilizer added, 30 are controls
 #'
-#' @format A data frame
+#' @format A data frame with variables
+#'
+#' * root: Continuous. Length of `plant`.
+#' * week: Integer. Time of measurement.
+#' * plant: Factor. ID for plant
+#' * fertilizer. Factor with values added or control.
+#'
+#' @source `The R book`, M.J. Crawley, Wiley, 2012.
+#'
 #' @examples
-#' str(fertilizer)
+#' library(nlme)
+#' res <- lme(fixed = root ~ fertilizer,
+#'        random = ~ week | plant,
+#'        data = fertilizer)
 "fertilizer"
 
 #' island data
