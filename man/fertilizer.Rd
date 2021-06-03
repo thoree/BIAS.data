@@ -20,9 +20,10 @@ A data frame with variables
 fertilizer
 }
 \description{
-The length of plants as measured by \code{root} is recorded for
+The length of plants, as measured by \code{root} is recorded for
 60 plants, each plant observed at \code{week} 2, 4, ..., 10.
-30 plants have fertilizer added, 30 are controls
+30 plants have fertilizer added, 30 are controls.
+This data has been generated at NMBU.
 }
 \examples{
 library(nlme)

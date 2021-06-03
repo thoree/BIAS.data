@@ -253,9 +253,10 @@
 
 #' fertilizer data
 #'
-#' The length of plants as measured by `root` is recorded for
+#' The length of plants, as measured by `root` is recorded for
 #' 60 plants, each plant observed at `week` 2, 4, ..., 10.
-#' 30 plants have fertilizer added, 30 are controls
+#' 30 plants have fertilizer added, 30 are controls.
+#' This data has been generated at NMBU.
 #'
 #' @format A data frame with variables
 #'
