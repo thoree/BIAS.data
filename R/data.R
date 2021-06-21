@@ -437,3 +437,16 @@
 #' @examples
 #' summary(weights)
 "weights"
+
+#' crabs data
+#'
+#' A dataset with 173 observations
+#' @format There are 173 female crabs for which we wish to model
+#' the presence or absence of male satellites dependent upon characteristics
+#' of the female horseshoe crabs. Here, 𝑦=1if satellite is present and 0
+#' otherwise. Explanatory variables are: weight, width of shell, color
+#' (medium light, medium, medium dark, dark), and condition of spine.
+#'
+#' @examples
+#' summary(crabs)
+"crabs"
