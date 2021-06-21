@@ -459,3 +459,38 @@
 #' @examples
 #' summary(iris.test)
 "iris.test"
+
+#' NSRdata data
+#'
+#' Data from the NSR education test
+#' @format The Norwegian Centre for Science Recruitment (NSR) has an online “education test”
+#'  where youths may answer a questionnaire to check their so-called cognitive types, their
+#'  science interest, their preferred learning methods and their interest to various science
+#'  subjects. The test suggests different ares within the STEM (Science, Technology, Engineering
+#'  and Mathematics) within which the youth may find suitable work. We have an excerpt of these
+#'  data. The data.frame NSRdata contains two variables, Science and Age. Science is an average
+#'  liking score (scale 1-6) to various STEM-subjects, and Age is a factor indicating different
+#'  age-groups:
+#'  \describe{
+#'   \item{a)1: 1-12 yrs}
+#'   \item{b)13: 13-15 yrs}
+#'   \item{c)16: 16-19 yrs}
+#'   \item{d)19: 19-29 yrs}
+#'   \item{e)30: 30 + yrs}
+#'   }
+#'
+#' @examples
+#' summary(NSRdata)
+"NSRdata"
+
+#' barley data
+#'
+#' A dataset with 32 observations
+#' @format In barley.rdata are results from an experiment where the response
+#' is yield of barley pr 1000 square meter, and the factors sorts of barley,
+#' soil types, types of fertilizers. In addition,the experiment was done in
+#' two different geographical areas (sites).
+#'
+#' @examples
+#' summary(barley)
+"barley"
