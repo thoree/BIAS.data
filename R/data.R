@@ -15,7 +15,7 @@
 #' two different diets: low-fat and not low-fat and three different
 #' types of exercise: at rest, walking leisurely and running.
 #' Their pulse rate was measured at three different time
-#' points during their assigned exercise: at 1 minute, 15 minutes and 30 minutes.
+#' points during their assigned exercise: at 1 minute, 15 minutes, and 30 minutes.
 #'
 #' @format A data frame, 90 observations on 5 variables
 #'
@@ -437,3 +437,60 @@
 #' @examples
 #' summary(weights)
 "weights"
+
+#' crabs data
+#'
+#' A dataset with 173 observations
+#' @format There are 173 female crabs for which we wish to model
+#' the presence or absence of male satellites dependent upon characteristics
+#' of the female horseshoe crabs. Here, 𝑦=1if satellite is present and 0
+#' otherwise. Explanatory variables are: weight, width of shell, color
+#' (medium light, medium, medium dark, dark), and condition of spine.
+#'
+#' @examples
+#' summary(crabs)
+"crabs"
+
+#' iris.test data
+#'
+#' A dataset with 60 observations
+#' @format A data frame for testing the classification model from the iris.train dataset
+#'
+#' @examples
+#' summary(iris.test)
+"iris.test"
+
+#' NSRdata data
+#'
+#' Data from the NSR education test
+#' @format The Norwegian Centre for Science Recruitment (NSR) has an online “education test”
+#'  where youths may answer a questionnaire to check their so-called cognitive types, their
+#'  science interest, their preferred learning methods and their interest to various science
+#'  subjects. The test suggests different ares within the STEM (Science, Technology, Engineering
+#'  and Mathematics) within which the youth may find suitable work. We have an excerpt of these
+#'  data. The data.frame NSRdata contains two variables, Science and Age. Science is an average
+#'  liking score (scale 1-6) to various STEM-subjects, and Age is a factor indicating different
+#'  age-groups:
+#'  \describe{
+#'   \item{a)1: 1-12 yrs}
+#'   \item{b)13: 13-15 yrs}
+#'   \item{c)16: 16-19 yrs}
+#'   \item{d)19: 19-29 yrs}
+#'   \item{e)30: 30 + yrs}
+#'   }
+#'
+#' @examples
+#' summary(NSRdata)
+"NSRdata"
+
+#' barley data
+#'
+#' A dataset with 32 observations
+#' @format In barley.rdata are results from an experiment where the response
+#' is yield of barley pr 1000 square meter, and the factors sorts of barley,
+#' soil types, types of fertilizers. In addition,the experiment was done in
+#' two different geographical areas (sites).
+#'
+#' @examples
+#' summary(barley)
+"barley"
