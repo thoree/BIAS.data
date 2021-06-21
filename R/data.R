@@ -450,3 +450,12 @@
 #' @examples
 #' summary(crabs)
 "crabs"
+
+#' iris.test data
+#'
+#' A dataset with 60 observations
+#' @format A data frame for testing the classification model from the iris.train dataset
+#'
+#' @examples
+#' summary(iris.test)
+"iris.test"
