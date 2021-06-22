@@ -494,3 +494,83 @@
 #' @examples
 #' summary(barley)
 "barley"
+
+#' colon data
+#'
+#' Data from a colon cancer study (Alon et al. (1999) Proc. Natl. Acad. Sci. U.S.A. 96 (12): 6745–6750).
+#' @format The data set is a 62 × 2001 matrix.
+#' Each column corresponds to the expression level of a certain gene.
+#' The the rows correspond to different tissues.
+#' The higher the value, the more active the gene is in a given tissue.
+#' The first column Tissue codes the disease status.
+#'
+#' @examples
+#' summary(colon)
+"colon"
+
+#' state.x77 data
+#'
+#' Matrix with 50 rows and 8 columns giving the following statistics in the respective columns.
+#' @format
+#' \describe{
+#'   \item{Population:}{population estimate as of July 1, 1975}
+#'   \item{Income:}{per capita income (1974)}
+#'   \item{Illiteracy:}{illiteracy (1970, percent of population)}
+#'   \item{Life Exp:}{life expectancy in years (1969–71)}
+#'   \item{Murder:}{murder and non-negligent manslaughter rate per 100,000 population (1976)}
+#'   \item{HS Grad:}{percent high-school graduates (1970)}
+#'   \item{Frost:s}{mean number of days with minimum temperature below freezing (1931–1960) in capital or large city}
+#'   \item{Area:}{land area in square miles}
+#'   }
+#'
+#' @examples
+#' summary(state.x77)
+"state.x77"
+
+#' Audi data
+#'
+#' Data for Group-Exercises-Regression I
+#' @format Sales prices and technical data on 30 cars of type Audi A4.
+#' The data were collected in February 2017. The variables are: Price, Km, Hk,
+#' Transition, Volume, Fuel, CO2, Weight, year, Age where Price is in 1000 NOK,Km
+#' is the distance driven (in 1000 km),Hk the horse power,Transition either manual
+#' (M) or automatic (A) transmission, etc.
+#'
+#' @examples
+#' summary(Audi)
+"Audi"
+
+#' stat210_5Jan2018 data
+#'
+#' Data for Group-Exercises-ANOVA from the Exam STAT210 (January 5th, 2018)
+#' @format A data set contains observations of different fertilizer mixtures
+#' coded by the factor variable mixture. The response variable Y called yield
+#' was measured and the year was recorded.
+#'
+#' @examples
+#' summary(stat210_5Jan2018)
+"stat210_5Jan2018"
+
+#' stat340_raq_quiz data
+#'
+#' Data for Group-Exercises-Multivariate II
+#' @format During the STAT340 course given in 2019 and 2020, the students were
+#' asked to fill out the ‘R Anxiety Questionnaire’ and a STAT340 quiz. The ‘R
+#' Anxiety Questionnaire’ consists of 24 claims, and the students gave a score
+#' of 1-5 to each claim (a score of 1 implied that they strongly disagreed, 5
+#' implied that they strongly agreed). The STAT340 quiz consists of 20 questions,
+#' and a total of 20 points could be scored.
+#'
+#' @examples
+#' summary(stat340_raq_quiz)
+"stat340_raq_quiz"
+
+#' Cakes.miss data
+#'
+#' Data for Exercise 4 - "Finding the best chocolate cake recipe" in Group-Exercises-RegressionII
+#' @format there are 5 cakes left to bake (response Y set to NA in observation
+#' nr. 9, 11, 13, 15, and 20), and you are supposed to complete the data set
+#' using the virtual chocolate cake factory.
+#' @examples
+#' summary(Cakes.miss)
+"Cakes.miss"
