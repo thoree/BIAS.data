@@ -1,12 +1,16 @@
 Package: stat340
 Title: Data and functions for Stat340 at NMBU
-Version: 1.0.0.9000
+Version: 1.0
 Authors@R: 
     person(given = "Thore",
            family = "Egeland",
            role = c("aut", "cre"),
            email = "thore.egeland@gmail.com")
-Description: Contains data and functions for the NMBU course Stat 340.
+    person(given = "Lars",
+           family = "Snipen",
+           role = c("aut", "cre"),
+           email = "lars.snipen@nmbu.no")
+Description: Contains data and functions for the NMBU course STAT340.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -15,4 +19,4 @@ RoxygenNote: 7.1.1
 URL: https://github.com/thoree/stat340
 BugReports: https://github.com/thoree/stat340/issues
 Depends: 
-    R (>= 2.10)
+    R (>= 4.0)

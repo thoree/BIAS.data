@@ -1,0 +1,22 @@
+---
+title: "The stat340 package"
+output: 
+  github_document:
+    html_preview: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# Installation
+This R package has been made to provide data and special functions for the course STAT340 at NMBU.
+
+Install the package from GitHub by
+```{r, eval=FALSE}
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("larssnip/microseq")
+```
+
