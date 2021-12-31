@@ -1,3 +1,23 @@
+#' Birdcount data
+#'
+#' Norway has been split into 3163 regions, each of 10 km × 10 km. Within each of these regions
+#' 11 variables have been registered over a time periode of about 8 years:
+#' COUNTS : The number of bird species observed.
+#' NUMBERVISITS: The number of visits by ornithologists (the observers).
+#' MINTEMP: The minimum registered temperature in the winter months.
+#' MAXTEMP: The maximum registered temperature in the winter months.
+#' MEANTEMP: Average registered temperature in the winter months during the project period (about 8 years).
+#' ALTITUDE: Average altitude (to the nearest 100 m).
+#' LATITUDE: The latitude of the center of the region.
+#' LONGITUDE: The longitude of the center of the region.
+#' DISTANCE: The minimum distance to the coastline.
+#' SEA: Whether the region contains sea (coast) or not.
+#' SQRT.POULATION: The square root of the human population (measured in 1000 persons) in the region.
+#'
+#' @format A data frame with 3163 rows and 11 columns.
+#'
+"Birdcount"
+
 #' city data
 #' Independent measurements of chlorine
 #' (ppm parts per million) were taken from 3 large cities:
