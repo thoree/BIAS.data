@@ -10,5 +10,5 @@ Install the package from GitHub by
 
 ``` r
 if(!require(devtools)) install.packages("devtools")
-devtools::install_github("larssnip/microseq")
+devtools::install_github("thoree/stat340")
 ```

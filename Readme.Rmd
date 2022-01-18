@@ -17,6 +17,6 @@ This R package has been made to provide data and special functions for the cours
 Install the package from GitHub by
 ```{r, eval=FALSE}
 if(!require(devtools)) install.packages("devtools")
-devtools::install_github("larssnip/microseq")
+devtools::install_github("thoree/stat340")
 ```
 
