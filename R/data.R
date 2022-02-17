@@ -1,3 +1,18 @@
+#' sediments data
+#'
+#' Seafloor sediments from 12 different sites along the coast have been collected and
+#' their prokaryotic composition estimated by amplicon sequencing and subsequent
+#' bioinformatic analysis.
+#'
+#' The column Environment indicates if the samples are from Natural or Polluted sediments.
+#'
+#' All remaining columns are the relative abundance of various prokaryotic genera.
+#'
+#' @format A data frame with 12 rows and 4113 columns.
+#'
+"sediments"
+
+
 #' Birdcount data
 #'
 #' Norway has been split into 3163 regions, each of 10 km × 10 km. Within each of these regions
