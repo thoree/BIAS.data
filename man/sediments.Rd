@@ -18,6 +18,8 @@ bioinformatic analysis.
 \details{
 The column Environment indicates if the samples are from Natural or Polluted sediments.
 
-All remaining columns are the relative abundance of various prokaryotic genera.
+All remaining columns are centered log-transformed relative abundances of
+various prokaryotic genera. A large value means a larger abundance, i.e. the most
+common genera have the largest values, and vice versa.
 }
 \keyword{datasets}
