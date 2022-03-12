@@ -296,16 +296,16 @@
 #'
 #' @format A data frame with variables
 #'
-#' * root: Continuous. Length of `plant`.
+#' * root: Continuous. Length of plant.
 #' * week: Integer. Time of measurement.
 #' * plant: Factor. ID for plant
-#' * fertilizer. Factor with values added or control.
+#' * treatment. Factor with levels control or fertilizer. Originally the variable was named fertilizer and the second level added
 #'
 #' @source `The R book`, M.J. Crawley, Wiley, 2012.
 #'
 #' @examples
 #' library(nlme)
-#' res <- lme(fixed = root ~ fertilizer,
+#' res <- lme(fixed = root ~ treatment,
 #'        random = ~ week | plant,
 #'        data = fertilizer)
 "fertilizer"

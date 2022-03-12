@@ -7,10 +7,10 @@
 \format{
 A data frame with variables
 \itemize{
-\item root: Continuous. Length of \code{plant}.
+\item root: Continuous. Length of plant.
 \item week: Integer. Time of measurement.
 \item plant: Factor. ID for plant
-\item fertilizer. Factor with values added or control.
+\item treatment. Factor with levels control or fertilizer. Originally the variable was named fertilizer and the second level added
 }
 }
 \source{
@@ -27,7 +27,7 @@ This data has been generated at NMBU.
 }
 \examples{
 library(nlme)
-res <- lme(fixed = root ~ fertilizer,
+res <- lme(fixed = root ~ treatment,
        random = ~ week | plant,
        data = fertilizer)
 }
