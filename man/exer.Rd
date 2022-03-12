@@ -7,7 +7,7 @@
 The data are from statistics.ats.ucla.edu.
 The data called exer, consists of people who were randomly assigned to
 two different diets: low-fat and not low-fat and three different
-types of exercise: at rest, walking leisurely and running.
+types of exercise: resting, walking leisurely and running.
 Their pulse rate was measured at three different time
 points during their assigned exercise: at 1 minute, 15 minutes, and 30 minutes.}
 \format{
@@ -21,7 +21,7 @@ exer data
 The data are from statistics.ats.ucla.edu.
 The data called exer, consists of people who were randomly assigned to
 two different diets: low-fat and not low-fat and three different
-types of exercise: at rest, walking leisurely and running.
+types of exercise: resting, walking leisurely and running.
 Their pulse rate was measured at three different time
 points during their assigned exercise: at 1 minute, 15 minutes, and 30 minutes.
 }
