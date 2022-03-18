@@ -1,3 +1,16 @@
+#' farms data
+#'
+#' The size of plants have been measured on 5 different locations with various
+#' Nitrogen content in the soil, within in each of 24 farms. This data set
+#' illustrates spatial pseudo-replication, since the 5 measurements made on
+#' each farm are probably dependent, coming from the same farm.
+#'
+#' The same data set as in The R Book, but with better column names.
+#'
+#' @format A data frame with 120 rows and 3 columns.
+#'
+"farms"
+
 #' sediments data
 #'
 #' Seafloor sediments from 12 different sites along the coast have been collected and
