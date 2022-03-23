@@ -1,3 +1,38 @@
+#' reading data
+#'
+#' The reading ability of children measured at different ages. A tiny
+#' data set to illustrate the importance of dependency in data.
+#'
+#' @format A data frame with 6 rows and 3 columns.
+#'
+"reading"
+
+#' poinsettia data
+#'
+#' The height of poinsettias is measured weekly for 15 weeks.
+#' The plants are grown under normal conditions (control),
+#' treated with chemicals to grow shorter, or treated with
+#' temperature manipulations to achieve the same as with
+#' chemicals.
+#'
+#' @format A data frame with 480 rows and 4 columns.
+#'
+"poinsettia"
+
+#' rootGrowth data
+#'
+#' The length of roots is measured bi-weekly for 10 weeks. There
+#' are 6 repeated measurements made for each root. 15 roots grow
+#' under normal conditions (control) while 15 under fertilized
+#' conditions (fertilizer).
+#'
+#' This is an extension of the data set fertilizer
+#' in The R Book.
+#'
+#' @format A data frame with 180 rows and 4 columns.
+#'
+"rootGrowth"
+
 #' farms data
 #'
 #' The size of plants have been measured on 5 different locations with various
