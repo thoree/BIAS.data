@@ -10,7 +10,7 @@ Authors@R:
            family = "Snipen",
            role = c("aut", "cre"),
            email = "lars.snipen@nmbu.no")
-Description: Contains data and functions for the NMBU course STAT340.
+Description: Contains data for the NMBU course STAT340.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
