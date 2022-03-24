@@ -46,6 +46,15 @@
 #'
 "farms"
 
+#' farms0 data
+#'
+#' This is just a subsample of the \code{\link{farms}} data set, where
+#' there are differing number of data from each farm.
+#'
+#' @format A data frame with 80 rows and 3 columns.
+#'
+"farms0"
+
 #' sediments data
 #'
 #' Seafloor sediments from 12 different sites along the coast have been collected and
