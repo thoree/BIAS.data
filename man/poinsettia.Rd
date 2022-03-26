@@ -5,16 +5,16 @@
 \alias{poinsettia}
 \title{poinsettia data}
 \format{
-A data frame with 480 rows and 4 columns.
+A data frame with 330 rows and 4 columns.
 }
 \usage{
 poinsettia
 }
 \description{
-The height of poinsettias is measured weekly for 15 weeks.
+The height of poinsettias is measured weekly up to around 100 days.
 The plants are grown under normal conditions (control),
 treated with chemicals to grow shorter, or treated with
 temperature manipulations to achieve the same as with
-chemicals.
+chemicals. Some data are missing for most plants.
 }
 \keyword{datasets}
