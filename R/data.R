@@ -1,3 +1,19 @@
+#' rats data
+#'
+#' Three experimental treatments were administered to rats, and the glycogen
+#' content of the rats’ livers was analysed as the response variable. There
+#' were two rats per treatment, so the total sample was n = 3 × 2 = 6. The
+#' tricky bit was that after each rat was killed, its liver was cut up into
+#' three pieces: a left-hand bit, a central bit and a right-hand bit. So now
+#' there are six rats each producing three bits of liver, for a total of 6 × 3 = 18
+#' numbers. Finally, two separate preparations were made from each macerated
+#' bit of liver, to assess the measurement error associated with the analytical
+#' machinery. At this point there are 2 × 18 = 36 numbers in the table as a whole.
+#'
+#' @format A data frame with 36 rows and 4 columns.
+#'
+"rats"
+
 #' reading data
 #'
 #' The reading ability of children measured at different ages. A tiny
