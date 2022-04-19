@@ -1,6 +1,6 @@
 Package: stat340
 Title: Data and functions for Stat340 at NMBU
-Version: 1.0
+Version: 1.1
 Authors@R: 
     person(given = "Thore",
            family = "Egeland",
