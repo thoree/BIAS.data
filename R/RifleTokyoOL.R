@@ -1,0 +1,46 @@
+#' RifleTokyoOL: Results from 50-meter Rifle
+#'
+#' This data contains both real and simulated results from 50-meter rifle in
+#' Tokyo Olympics 2021. Each observation is the total points after a five-shoot
+#' series for one female or male athlete.
+#'
+#' @format A data frame with 144 observations (rows) and 5 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Points} \tab numeric \tab Total points in a 5-shot series \tab (40.7 - 53.1)\cr
+#'   \code{[,2]} \tab \code{Style} \tab character \tab 3 possible shooting positions \tab ("Kneeling", "Prone", "Standing")\cr
+#'   \code{[,3]} \tab \code{Gender} \tab character \tab 2 genders: males and female \tab ("Male", "Female")\cr
+#'   \code{[,4]} \tab \code{Athlete} \tab character \tab 16 athletes \tab ("Zhang Chanhong"..."Andrea Arsovic")\cr
+#'   \code{[,5]} \tab \code{Simulated} \tab character \tab If the data is simulated or not \tab ("No", "Yes")
+#' }
+#'
+#' @details
+#'
+#' The shooters (i.e., athletes) compete in three different shooting positions
+#' (styles): kneeling  ("kne" in Norwegian), prone ("liggende" in Norwegian) and
+#' standing position. In the final with 16 athletes, the athletes shoot three
+#' five-shot series in each position, with maximum score 54,5 points in each
+#' series. Special rules apply to the last standing series (not all shooters
+#' shoot five shots in this series), and for some of the athletes data for these
+#' series is simulated.
+#'
+#' This data was used in Exercises for STAT210 (exercise 19) in August 2022.
+#'
+#' @examples
+#'
+#' # Number of athletes
+#' length(unique(RifleTokyoOL$Athlete))
+#'
+#' # Linear model
+#' lm(Points ~ Style, data = RifleTokyoOL)
+#'
+#' @source
+#'
+#' The simulated part of the data is created by Lars Erik Gangsei.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name RifleTokyoOL
+#' @usage RifleTokyoOL
+#'
+"RifleTokyoOL"

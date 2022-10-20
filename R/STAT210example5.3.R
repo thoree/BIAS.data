@@ -1,0 +1,42 @@
+#' STAT210example5.3: The Soft Drink Bottling Problem
+#'
+#' A soft drink bottler is interested in obtaining more uniform fill heights in
+#' bottles. The filling machine theoretically fills each bottle to the correct
+#' target height, but in practice, there is variation around this target. To
+#' understand the sources of variability, the process engineer runs two
+#' replicates of a factorial design and controls three factors during the
+#' filling process. This data shows 24 samples of the average deviation from the
+#' target fill height.
+#'
+#' @format A data frame with 24 observations (rows) and 4 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{percent_carbonation} \tab factor \tab 3 levels of carbonation in percentage \tab (10, 12, 14)\cr
+#'   \code{[,2]} \tab \code{operation_pressure} \tab factor \tab Operating pressure in psi \tab (25, 30)\cr
+#'   \code{[,3]} \tab \code{line_speed} \tab factor \tab 2 levels of line speed in bpm \tab (200, 250)\cr
+#'   \code{[,4]} \tab \code{height_deviation} \tab integer \tab Average fill deviation \tab (-3 - 11)
+#' }
+#'
+#' @details
+#'
+#' The data is from Example 5.3 in Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(STAT210example5.3)
+#'
+#' # First six and last 10 rows
+#' head(STAT210example5.3)
+#' tail(STAT210example5.3, n = 10)
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210example5.3
+#' @usage STAT210example5.3
+#'
+"STAT210example5.3"

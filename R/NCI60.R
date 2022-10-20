@@ -1,0 +1,54 @@
+#' NCI60: Gene Expression in Cancer Cell Lines
+#'
+#' This is NCI microarray data and consists of 6830 gene expression measurements
+#' for each of 64 cancer cell lines derived from 14 types of human tumours. The
+#' researchers wanted to classify the cell lines based on the observed gene
+#' expression patterns.
+#'
+#' @format A data frame with 64 observations (rows) and 6832 variables
+#' (columns).
+#'
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{ID} \tab factor \tab Unique ID for each cell line \tab (V1...V64)\cr
+#'   \code{[,2]} \tab \code{Labs} \tab factor \tab 14 types of cancer \tab (BREAST...UNKNOWN)\cr
+#'   \code{[,3:6832]} \tab \code{Expr1...Expr6830} \tab numeric \tab Gene expression data \tab (-6.939981 - 8.66)
+#' }
+#'
+#' @details
+#'
+#' \tabular{rl}{
+#'   \bold{CNS} \tab central nervous system\cr
+#'   \bold{NSCLC} \tab non-small cell lung cancer\cr
+#'   \bold{K562} \tab chronic myeloid leukaemia\cr
+#'   \bold{MCF7} \tab metastatic adenocarcinoma (breast cancer)
+#' }
+#'
+#' @examples
+#'
+#' # Summary of some of the variables
+#' summary(NCI60[, 1:6])
+#'
+#' # Number of cases per cancer type
+#' table(NCI60$Labs)
+#'
+#' @source
+#'
+#' The data is from
+#' \url{https://vincentarelbundock.github.io/Rdatasets/articles/data.html}
+#'
+#' @references
+#'
+#' James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013) \emph{An
+#' Introduction to Statistical Learning with applications in R},
+#' Springer-Verlag:New York.
+#'
+#' Ross, D.T., et al. (2000) Systematic variation in gene expression patterns in
+#' human cancer cell lines. \emph{Nat Genet}, \bold{24}, 227–235.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name NCI60
+#' @usage NCI60
+#'
+"NCI60"

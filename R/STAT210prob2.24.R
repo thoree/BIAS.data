@@ -1,0 +1,34 @@
+#' STAT210prob2.24: Repair Time of Electronic Instruments
+#'
+#' The time it takes to repair an electronic instrument is a normally
+#' distributed random variable measured in hours. The repair time for 16 such
+#' instruments were chosen at random.
+#'
+#' @format A data frame with 16 observations (rows) and 1 variable (column).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Hours} \tab integer \tab Repair time in hours \tab (101 - 485)
+#' }
+#'
+#' @details
+#'
+#' This is data from Exercise 2.24 in Design and Analysis of Experiments, 9th
+#' Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # Invoke a spreadsheet-style data viewer
+#' View(STAT210prob2.24)
+#'
+#' # A short summary of the variable
+#' summary(STAT210prob2.24)
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210prob2.24
+#' @usage STAT210prob2.24
+#'
+"STAT210prob2.24"

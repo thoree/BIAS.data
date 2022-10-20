@@ -1,0 +1,28 @@
+#' bodydata: Body Measurements of 407 People
+#'
+#' This data set contains measurements of weight, height, and circumference for
+#' people between 18 and 67 years old.
+#'
+#' @format A data frame with 407 observations (rows) and 4 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Weight} \tab numeric \tab The weight in kg \tab (42.0 - 108.6)\cr
+#'   \code{[,2]} \tab \code{Height} \tab numeric \tab The height in cm \tab (149.5 - 198.1)\cr
+#'   \code{[,3]} \tab \code{Age} \tab numeric \tab The age in years \tab (18 - 67)\cr
+#'   \code{[,4]} \tab \code{Circumference} \tab numeric \tab Circumference in cm \tab (57.9 - 113.2)
+#' }
+#'
+#' @examples
+#'
+#' # Linear model with the weight as response
+#' lm(Weight ~ Height + Age, data = bodydata)
+#'
+#' # Scatterplot matrix with all variables
+#' pairs(bodydata, panel = panel.smooth)
+#'
+#' @docType data
+#' @keywords datasets
+#' @name bodydata
+#' @usage bodydata
+#'
+"bodydata"

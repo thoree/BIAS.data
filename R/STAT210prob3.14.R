@@ -1,0 +1,39 @@
+#' STAT210prob3.14: Tensile Strength of Different Fibre Blends
+#'
+#' A product developer is investigating the tensile strength of a new synthetic
+#' fibre that will be used to make cloth for men's shirts. The strength is
+#' usually affected by the percentage of cotton used in the blend of materials
+#' for the fibre. The engineer conducts a completely randomized experiment with
+#' five levels of cotton content and replicates the experiment 5 times.
+#'
+#' @format A data frame with 25 observations (rows) and 2 variables (columns).
+#'
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Cotton_Weight} \tab integer \tab Percentage weight of cotton in the blend \tab (15 - 35)\cr
+#'   \code{[,2]} \tab \code{Observations} \tab integer \tab The tensile strength of the fibre \tab (7 - 25)
+#' }
+#'
+#' @details
+#'
+#' This is data from Exercise3.14 in Design and Analysis of Experiments, 9th
+#' Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # A short summary of variables
+#' summary(STAT210prob3.14)
+#'
+#' # Tensile strength per level of cotton content
+#' boxplot(Observations ~ Cotton_Weight,
+#'         data = STAT210prob3.14, col = "navajowhite3")
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210prob3.14
+#' @usage STAT210prob3.14
+#'
+"STAT210prob3.14"

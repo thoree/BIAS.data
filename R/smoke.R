@@ -1,0 +1,43 @@
+#' smoke: Cigarettes and Deaths in 20 Countries
+#'
+#' This is a historically important data set from the beginning of the 1960-s.
+#' The average number of cigarettes per person per year and deaths from
+#' Cardiac Hearth Disease (CHD) was recorded for 20 countries. Essentially this
+#' data was used to argue in favour of putting health warnings on cigarette
+#' packages in several countries.
+#'
+#' @format A data frame with 20 observations (rows) and 3 variables (columns).
+#' \tabular{llllr}{
+#'   \bold{ } \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{x} \tab integer \tab Average number of cigarettes \tab (1200 - 3900)\cr
+#'   \code{[,2]} \tab \code{y} \tab numeric \tab Number of deaths per 100 000 \tab (31.9 - 256.9)\cr
+#'   \code{[,3]} \tab \code{country} \tab factor \tab 20 countries \tab (Australia...West.Germany)
+#' }
+#'
+#' \itemize{
+#'   \item \code{x} is the average number of cigarettes per person per year,
+#'   including both smokers and non-smokers above the age 18.
+#'   \item \code{y} is the number of deaths caused by Cardiac Hearth Disease for
+#'   each country and applies to the part of the population of ages between 35
+#'   and 64.
+#' }
+#'
+#' @details
+#'
+#' This data set was used in Exercise 1 of Exam STAT340 2021-05-28 and in
+#' Exercise 1 of Exam STAT340 2018-05-28.
+#'
+#' @examples
+#'
+#' # First six rows
+#' head(smoke)
+#'
+#' # Linear model
+#' lm(y ~ x, data = smoke)
+#'
+#' @docType data
+#' @keywords datasets
+#' @name smoke
+#' @usage smoke
+#'
+"smoke"

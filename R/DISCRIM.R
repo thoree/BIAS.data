@@ -1,0 +1,39 @@
+#' DISCRIM: Gender Discrimination in Hiring
+#'
+#' This data contains information on the amount of education and work
+#' experience for 28 former male and female applicants. An equal-right group
+#' claims that females are less likely to be hired than males with the same
+#' background.
+#'
+#' @format A data frame with 28 observations (rows) and 4 variables (columns).
+#'
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{HIRE} \tab numeric \tab 1 if the person was hired, otherwise 0 \tab (0 - 1)\cr
+#'   \code{[,2]} \tab \code{EDUC} \tab numeric \tab Years of higher education \tab (4 - 8)\cr
+#'   \code{[,3]} \tab \code{EXP} \tab numeric \tab Years of experience \tab (0 - 12)\cr
+#'   \code{[,4]} \tab \code{GENDER} \tab numeric \tab 1 if male applicant, otherwise 0 \tab (0 - 1)
+#' }
+#'
+#' @details
+#'
+#' The data is from Exercise 9.21 in A second course in statistics:
+#' Regression Analysis, 7th edition.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(DISCRIM)
+#'
+#' # Structure of the object
+#' str(DISCRIM)
+#'
+#' @source Mendenhall, W., Sincich, T. (2012) \emph{A second course in statistics:
+#' Regression Analysis, 7th edition.}. Pearson Education.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name DISCRIM
+#' @usage DISCRIM
+#'
+"DISCRIM"

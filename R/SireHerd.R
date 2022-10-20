@@ -1,0 +1,48 @@
+#' SireHerd: Milk Production from Dairy Cows
+#'
+#' From a population of sires, three sires were chosen at random, and for each
+#' of the sires the annual milk production for three of their daughters were
+#' recorded. This data set also contains information of what herd the cows
+#' belong to.
+#'
+#' @format A data frame with 24 observations (rows) and 3 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{milk} \tab integer \tab Milk produced from each cow in kg \tab (6063 - 7579)\cr
+#'   \code{[,2]} \tab \code{herd} \tab factor \tab The cows live in 4 different groups \tab (1, 2, 3, 4)\cr
+#'   \code{[,3]} \tab \code{sire} \tab factor \tab The father of the cow \tab (1, 2, 3)
+#' }
+#'
+#' @details
+#'
+#' \itemize{
+#'   \item Each sire has two daughters in each herd.
+#'   \item The milk production is the response variable.
+#'   \item The three sires are considered random effects since it is the whole
+#'   population of sires we are interested in, not specifically this random
+#'   sample of three sires.
+#'   \item \code{sire} and \code{herd} are nested random effects.
+#' }
+#'
+#' The sire data sets have been used in STAT210 and other courses at NMBU over
+#' several years. While this data set consists of observed milk production for
+#' 24 cows, the `sires` data has 40 observations. `sires` and `SireHerd` do not
+#' contain the same observations.
+#'
+#' @seealso `sires`
+#'
+#' @examples
+#'
+#' # The structure of the object
+#' str(SireHerd)
+#'
+#' # One box for daughters of the same sire in each herd,
+#' # two cows per box
+#' boxplot(milk ~ herd + sire, data = SireHerd)
+#'
+#' @docType data
+#' @keywords datasets
+#' @name SireHerd
+#' @usage SireHerd
+#'
+"SireHerd"

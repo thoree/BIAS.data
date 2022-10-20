@@ -1,0 +1,38 @@
+#' STAT210example2.1: Bond Strength for Portland Cement Mortars
+#'
+#' An engineer studied a new formulation of Portland cement mortar for
+#' shorter cure time and tested the effect the new mixture had on the tension
+#' bond strength. In this data set there are a total of 20 samples of bond
+#' strength measurements for modified or unmodified mortar. The bond strength is
+#' given in kgf/cm\eqn{^2} (kilogram-force per centimetre square).
+#'
+#' @format A tibble with 10 observations (rows) and 2 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Modified} \tab numeric \tab Bond strength for modified mortar \tab (16.35 - 17.21)\cr
+#'   \code{[,2]} \tab \code{Unmodified} \tab numeric \tab Bond strength for unmodified mortar \tab (16.62 - 17.8)
+#' }
+#'
+#' @details
+#'
+#' This is data from the Portland Cement example (TABLE 2.1) in Design and
+#' Analysis of Experiments, 9th Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # Stacked data
+#' PortlandCement <- stack(STAT210example2.1)
+#' names(PortlandCement) <- c('Strength','Modification')
+#'
+#' # Linear model
+#' lm(Strength ~ Modification, data = PortlandCement)
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210example2.1
+#' @usage STAT210example2.1
+#'
+"STAT210example2.1"

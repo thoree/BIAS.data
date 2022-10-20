@@ -1,0 +1,32 @@
+#' species: Plant Species Count Data
+#'
+#' This data contains the number of plant species in 90 plots of different
+#' biomass and pH. The biomass is a continuous explanatory variable, the soil pH
+#' is a categorical variable, and the response variable is the number of plant
+#' species on each plot.
+#'
+#' @format A data frame with 90 observations (rows) and 3 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{pH} \tab factor \tab 3 levels of soil pH \tab (high, low, mid)\cr
+#'   \code{[,2]} \tab \code{Biomass} \tab numeric \tab The biomass in the soil \tab (0.05017 - 9.98177)\cr
+#'   \code{[,3]} \tab \code{Species} \tab integer \tab Number of plant species \tab (2 - 44)
+#' }
+#'
+#' @examples
+#'
+#' # First six rows
+#' head(species)
+#'
+#' # The relationship between biomass and plant species
+#' plot(species$Biomass, species$Species, col = species$pH,
+#'      pch = 19, xlab = "Biomass", ylab = "Plant species")
+#'
+#' @source `The R book`, M.J. Crawley, Wiley, 2007 (Chapter 14.3).
+#'
+#' @docType data
+#' @keywords datasets
+#' @name species
+#' @usage species
+#'
+"species"

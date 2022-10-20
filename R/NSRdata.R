@@ -1,0 +1,48 @@
+#' NSRdata: The NSR's Education Test
+#'
+#' The data in this data set is from The Norwegian Centre for Science
+#' Recruitment's (NSR) online “education test”. In this test youths may answer a
+#' questionnaire to check their so-called cognitive types, their science
+#' interest, their preferred learning methods, and their interest to various
+#' science subjects.
+#'
+#' @format A data frame with 10 000 observations (rows) and 2 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Science} \tab numeric \tab Average liking score \tab (1 - 6)\cr
+#'   \code{[,2]} \tab \code{Age} \tab factor \tab 5 different age-groups \tab (1, 13, 16, 19, 30)
+#' }
+#'
+#' `NSRdata` contains two variables, Science and Age. Science is an average
+#' liking score (scale 1-6) to various STEM-subjects, and Age is a factor
+#' indicating different age-groups:
+#'
+#' \tabular{rr}{
+#'   \bold{ 1}: \tab 1-12 years\cr
+#'   \bold{13}: \tab 13-15 years\cr
+#'   \bold{16}: \tab 16-19 years\cr
+#'   \bold{19}: \tab 19-29 years\cr
+#'   \bold{30}: \tab 30 + years
+#' }
+#'
+#' @details
+#'
+#' The education test suggests different areas within the STEM (Science,
+#' Technology, Engineering and Mathematics) within which the youth may find
+#' suitable work. We have an excerpt of these data.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(NSRdata)
+#'
+#' # The first six and the last six observations
+#' head(NSRdata)
+#' tail(NSRdata)
+#'
+#' @docType data
+#' @keywords datasets
+#' @name NSRdata
+#' @usage NSRdata
+#'
+"NSRdata"

@@ -1,0 +1,44 @@
+#' Raman.test: Raman Spectroscopy on Fish Oil
+#'
+#' This data set contains Raman spectra for 15 salmon oil samples extracted from
+#' farmed salmon, \emph{Salmo salar}. The Iodine number, which is connected to
+#' the degree of unsaturation in the fatty acids, is reported.
+#'
+#' @format A data frame with 15 observations (rows) and 2264 variables
+#' (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Iodine_number} \tab numeric \tab Indicator for unsaturation in the fatty acids \tab (154.4021 - 168.3116)\cr
+#'   \code{[,2:2264]} \tab \code{RSdata1...RSdata2263} \tab numeric \tab Raman spectroscopy data \tab (-0.004085908 - 0.107787)
+#' }
+#'
+#' @details
+#'
+#' The wavelengths used in the Raman spectroscopy were -20 cm\eqn{^{-1}} – 3450
+#' cm\eqn{^{-1}}. Wavelengths before 790 cm\eqn{^{-1}} and after 3050
+#' cm\eqn{^{-1}} are not included in this data.
+#'
+#' The Raman data with a total of 45 observations was split into a training
+#' data with 30 observations and this test data set with the remaining 15
+#' observations.
+#'
+#' @seealso `Raman.train`
+#'
+#' @examples
+#'
+#' # Maximum and minimum Iodine value
+#' max(Raman.test$Iodine_number)
+#' min(Raman.test$Iodine_number)
+#'
+#' @references
+#'
+#' Liland, K.H., Almøy, T., Mevik, B., et al. (2010) Optimal Choice of Baseline
+#' Correction for Multivariate Calibration of Spectra.
+#' \emph{History of Science}, \bold{64}, 245 - 278.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name Raman.test
+#' @usage Raman.test
+#'
+"Raman.test"
