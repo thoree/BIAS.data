@@ -1,4 +1,4 @@
-#' Hprice: Housing prices and Air Pollution in Boston
+#' Hprice: Housing prices and Air Pollution in Boston, USA
 #'
 #' This data set is a selection of variables from the Boston house-price
 #' data originally published by Harrison, D. and Rubinfeld, D.L. The data
