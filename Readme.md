@@ -1,14 +1,14 @@
-The stat340 package
+The BIAS.data package
 ================
 
 # Installation
 
 This R package has been made to provide data and special functions for
-the course STAT340 at NMBU.
+BIAS at NMBU.
 
 Install the package from GitHub by
 
 ``` r
 if(!require(devtools)) install.packages("devtools")
-devtools::install_github("thoree/stat340")
+devtools::install_github("thoree/BIAS.data")
 ```
