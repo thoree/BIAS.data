@@ -48,6 +48,6 @@ pairs(Hprice[, 1:9])
 }
 \references{
 Harrison, D., Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean
-air \emph {J. Environ. Economics & Management}, \bold{5}, 81-102.
+air \emph{J. Environ. Economics & Management}, \bold{5}, 81-102.
 }
 \keyword{datasets}
