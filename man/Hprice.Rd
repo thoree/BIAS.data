@@ -3,7 +3,7 @@
 \docType{data}
 \name{Hprice}
 \alias{Hprice}
-\title{Hprice: Housing prices and Air Pollution in Boston}
+\title{Hprice: Housing prices and Air Pollution in Boston, USA}
 \format{
 A data frame with 506 observations (rows) and 12 variables (columns).
 
