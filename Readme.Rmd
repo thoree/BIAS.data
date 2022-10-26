@@ -20,3 +20,10 @@ if(!require(devtools)) install.packages("devtools")
 devtools::install_github("thoree/BIAS.data")
 ```
 
+If the above commands fail, try
+```{r, eval=FALSE}
+options(timeout=400)
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("thoree/BIAS.data")
+```
+
