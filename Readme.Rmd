@@ -26,4 +26,3 @@ options(timeout=400)
 if(!require(devtools)) install.packages("devtools")
 devtools::install_github("thoree/BIAS.data")
 ```
-
