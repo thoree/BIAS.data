@@ -1,6 +1,6 @@
 #' Audi: Sales Prices and Technical Data for Audi A4
 #'
-#' The data in this data set was collected on February 15th, 2017, and consists
+#' The data in this data set were collected on February 15th, 2017, and consists
 #' of sales prices and technical data on 30 cars of type Audi A4.
 #'
 #' @format A data frame with 30 observations (rows) and 10 variables (columns).
