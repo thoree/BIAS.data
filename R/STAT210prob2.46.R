@@ -15,8 +15,8 @@
 #'
 #' This is data from Exercise 2.46 in Design and Analysis of Experiments, 9th
 #' Edition, EMEA Edition. In this exercise you are suppose to apply the equation
-#' to the Portland cement experiment data, and find a 95 percent confidence
-#' interval.
+#' to the Portland cement experiment data from example 2.1, and find a 95
+#' percent confidence interval.
 #'
 #' @examples
 #'
