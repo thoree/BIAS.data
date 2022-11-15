@@ -5,8 +5,8 @@
 #' target height, but in practice, there is variation around this target. To
 #' understand the sources of variability, the process engineer runs two
 #' replicates of a factorial design and controls three factors during the
-#' filling process. This data shows 24 samples of the average deviation from the
-#' target fill height.
+#' filling process. This data shows the average deviation from the
+#' target fill height for 24 production runs.
 #'
 #' @format A data frame with 24 observations (rows) and 4 variables (columns).
 #' \tabular{llllr}{

@@ -27,8 +27,8 @@ bottles. The filling machine theoretically fills each bottle to the correct
 target height, but in practice, there is variation around this target. To
 understand the sources of variability, the process engineer runs two
 replicates of a factorial design and controls three factors during the
-filling process. This data shows 24 samples of the average deviation from the
-target fill height.
+filling process. This data shows the average deviation from the
+target fill height for 24 production runs.
 }
 \details{
 The data is from Example 5.3 in Design and Analysis of Experiments,
