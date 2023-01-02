@@ -22,6 +22,3 @@ Plot the region in an LDA object.
 The LDA object used as (mandatory) input to this function MUST have been made
 from data in a \code{data.frame}, and NOT data in a \code{tibble}.
 }
-\examples{
-
-}
