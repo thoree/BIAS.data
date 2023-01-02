@@ -1,0 +1,45 @@
+#' STAT210prob2.26: Bottle Filling Machines
+#'
+#' Two machines are used for filling plastic bottles with a net volume of 16
+#' ounces. The filling processes can be assumed to be normal, with standard
+#' deviations of \eqn{\sigma_{1}} = 0.015 and \eqn{\sigma_{2}} = 0.018. The
+#' quality engineering department suspects that both machines fill to the same
+#' net volume, whether or not this volume is 16 ounces. An experiment is
+#' performed by taking a random sample of bottles from the output of each
+#' machine.
+#'
+#' @format A data frame with 10 observations (rows) and 2 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Machine1} \tab numeric \tab Net volume in ounces \tab (15.96 - 16.05)\cr
+#'   \code{[,2]} \tab \code{Machine2} \tab numeric \tab Net volume in ounces \tab (15.96 - 16.04)
+#' }
+#'
+#' @details
+#'
+#' This is data from Exercise 2.26 in Design and Analysis of Experiments, 9th
+#' Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(STAT210prob2.26)
+#'
+#' # Stacked data
+#' Machines <- stack(STAT210prob2.26)
+#' colnames(Machines) <- c("ounces", "machine")
+#'
+#' # Ounces per machine
+#' boxplot(ounces ~ machine, data = Machines,
+#'         col = "turquoise1")
+#'
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210prob2.26
+#' @usage STAT210prob2.26
+#'
+"STAT210prob2.26"

@@ -1,5 +1,5 @@
-Package: stat340
-Title: Data and functions for Stat340 at NMBU
+Package: BIAS.data
+Title: Data and functions for BIAS at NMBU
 Version: 1.1
 Authors@R: 
     person(given = "Thore",
@@ -10,13 +10,19 @@ Authors@R:
            family = "Snipen",
            role = c("aut", "cre"),
            email = "lars.snipen@nmbu.no")
-Description: Contains data for the NMBU course STAT340.
+Description: Contains data for courses at BIAS, NMBU.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
+<<<<<<< HEAD
 RoxygenNote: 7.2.0
 URL: https://github.com/thoree/stat340
 BugReports: https://github.com/thoree/stat340/issues
+=======
+RoxygenNote: 7.2.1
+URL: https://github.com/thoree/BIAS.data
+BugReports: https://github.com/thoree/BIAS.data/issues
+>>>>>>> 70db002cf97c6294b614e6478608d292e5d909d7
 Depends: 
     R (>= 4.0)

@@ -1,0 +1,48 @@
+#' Blackbream: Feeding Behavior of Black Bream Fish
+#'
+#' This data is from an article in \emph{Brain, Behavior and Evolution} about a
+#' study of the feeding behaviour of black bream fish. A zoologists recorded the
+#' number of aggressive strikes of two black bream fish feeding at the bottom of
+#' an aquarium in the 10-minute period following the addition of food. The data
+#' contains the weekly number of strikes and the age of the fish.
+#'
+#' @format A data frame with 9 observations (rows) and 3 variables (columns).
+#'
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{WEEK} \tab integer \tab 9 weeks of observations \tab (1 - 9)\cr
+#'   \code{[,2]} \tab \code{STRIKES} \tab integer \tab Number of strikes per week \tab (12 - 85)\cr
+#'   \code{[,3]} \tab \code{AGE} \tab integer \tab The age of the fish in days \tab (120 - 190)
+#' }
+#'
+#' @details
+#'
+#' This data is from Exercise 3.12 in A second course in statistics: Regression
+#' Analysis, 7th edition.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(Blackbream)
+#'
+#' # Linear model
+#' lm(STRIKES ~ AGE, data = Blackbream)
+#'
+#' @source
+#'
+#' Mendenhall, W., Sincich, T. (2012) \emph{A second course in statistics:
+#' Regression Analysis, 7th edition.} Pearson Education.
+#'
+#' @references
+#'
+#' Shand J., et al. (2000) Variability in the location of the retinal ganglion cell
+#' area centralis is correlated with ontogenetic changes in feeding behavior in the
+#' black bream, Acanthopagrus butcheri (Sparidae, teleostei). \emph{Brain Behav Evol.},
+#' \bold{55}, 176 - 190.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name Blackbream
+#' @usage Blackbream
+#'
+"Blackbream"

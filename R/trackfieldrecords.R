@@ -1,0 +1,63 @@
+#' trackfieldrecords: National Records for Track and Field Events
+#'
+#' This data set contains data of national records for male and female athletics
+#' for several track and field events like 100m, 200m and so on up to marathon.
+#' All records are given in minutes.
+#'
+#' @format A list with 2 elements of type data frame.
+#'
+#' The columns of the 2 data frames, `runMen` and `runWomen`, in the list:
+#'
+#' `runMen`, a data frame with 52 observations (rows) and 9 variables (columns):
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{M100} \tab numeric \tab Records for 100 m \tab (0.1655 - 0.2030)\cr
+#'   \code{[,2]} \tab \code{M200} \tab numeric \tab Records for 200 m \tab (0.3287 - 0.3867)\cr
+#'   \code{[,3]} \tab \code{M400} \tab numeric \tab Records for 400 m \tab (0.7310 - 0.8823)\cr
+#'   \code{[,4]} \tab \code{M800} \tab numeric \tab Records for 800 m \tab (1.70 - 2.02)\cr
+#'   \code{[,5]} \tab \code{M1500} \tab numeric \tab Records for 1500 m \tab (3.51 - 4.24)\cr
+#'   \code{[,6]} \tab \code{M5000} \tab numeric \tab Records for 5000 m \tab (13.01 - 16.70)\cr
+#'   \code{[,7]} \tab \code{M10K} \tab numeric \tab Records for 10 000 m \tab (27.38 - 35.38)\cr
+#'   \code{[,8]} \tab \code{M42K} \tab numeric \tab Records for marathon \tab (128.2 - 164.7)\cr
+#'   \code{[,9]} \tab \code{Nation} \tab factor \tab The nationality of the athletics \tab (argentin...wsamoa)
+#' }
+#'
+#' `runWomen`, a data frame with 52 observations (rows) and 8 variables (columns):
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{M100} \tab numeric \tab Records for 100 m \tab (0.1798 - 0.2150)\cr
+#'   \code{[,2]} \tab \code{M200} \tab numeric \tab Records for 200 m \tab (0.3638 - 0.4517)\cr
+#'   \code{[,3]} \tab \code{M400} \tab numeric \tab Records for 400 m \tab (0.7998 - 1.0067)\cr
+#'   \code{[,4]} \tab \code{M800} \tab numeric \tab Records for 800 m \tab (1.89 - 2.33)\cr
+#'   \code{[,5]} \tab \code{M1500} \tab numeric \tab Records for 1500 m \tab (3.95 - 5.81)\cr
+#'   \code{[,6]} \tab \code{M3000} \tab numeric \tab Records for 3000 m \tab (8.50 - 13.04)\cr
+#'   \code{[,7]} \tab \code{M42K} \tab numeric \tab Records for marathon \tab (142.7 - 306.0)\cr
+#'   \code{[,8]} \tab \code{Nation} \tab factor \tab The nationality of the athletics \tab (argentin...wsamoa)
+#' }
+#'
+#' @details
+#'
+#' In the first 5 columns of the two data frames, the variables are the same
+#' (\code{M100} - \code{M1500}), and they both have the columns \code{Nation}
+#' and \code{M42K}. While `runMen` has the columns \code{M5000} and \code{M10K},
+#' `runWomen` has \code{M3000}.
+#'
+#' @seealso `TrackRecords`
+#'
+#' @examples
+#'
+#' # Get the data frames into "Environment"
+#' runMen <- trackfieldrecords$runMen
+#' runWomen <- trackfieldrecords$runWomen
+#'
+#' # Hierarchical Clustering
+#' clust <-hclust(dist(runWomen[,-8]), method = "average")
+#' plot(clust, hang = -1, xlab = "", sub ="", cex = 0.6,
+#'      labels = runWomen[,8])
+#'
+#' @docType data
+#' @keywords datasets
+#' @name trackfieldrecords
+#' @usage trackfieldrecords
+#'
+"trackfieldrecords"

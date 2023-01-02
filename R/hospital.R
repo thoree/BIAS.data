@@ -1,0 +1,40 @@
+#' hospital: Caring for Hospital Patients
+#'
+#' The coronary care unit at Bayonet Point Hospital in Florida investigated the
+#' relationship between the number of factors per patient and the patient's
+#' length of stay. The factors are any medical item used in the care of the
+#' hospital patients, such as needles, medicaments, intravenous fluid etc. This
+#' is data for a random sample of 50 coronary care patients.
+#'
+#' @format A data frame with 50 observations (rows) and 2 variables (columns).
+#'
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Num_factors} \tab integer \tab Number of medical items \tab (55 - 525)\cr
+#'   \code{[,2]} \tab \code{Stay_length} \tab integer \tab Length of hospital stay in days \tab (2 - 15)
+#' }
+#'
+#' @details
+#'
+#' This data is from Exercise 3.68 in A second course in statistics: Regression
+#' Analysis, 7th edition.
+#'
+#' @examples
+#'
+#' # Structure of the object
+#' str(hospital)
+#'
+#' # Scatterplot matrix
+#' pairs(hospital)
+#'
+#' @source
+#'
+#' Mendenhall, W., Sincich, T. (2012) \emph{A second course in statistics:
+#' Regression Analysis, 7th edition.} Pearson Education.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name hospital
+#' @usage hospital
+#'
+"hospital"

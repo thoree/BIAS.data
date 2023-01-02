@@ -1,0 +1,47 @@
+#' STAT210prob2.35: Monozygotic Twins
+#'
+#' An article in the journal \emph{Neurology} observed that monozygotic twins
+#' (identical twins) share numerous physical, psychological, and pathological
+#' traits. This data is from the study where the investigators measured an
+#' intelligence score of 10 pairs of twins with ages between 24 and 43 years.
+#'
+#' @format A data frame with 10 observations (rows) and 3 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Pair} \tab integer \tab The pair of identical twins \tab (1 - 10)\cr
+#'   \code{[,2]} \tab \code{Birth_order1} \tab numeric \tab Intelligence score for twin 1 \tab (6.03 - 7.99)\cr
+#'   \code{[,3]} \tab \code{Birth_order2} \tab numeric \tab Intelligence score for twin 2 \tab (5.73 - 8.76)
+#' }
+#'
+#' @details
+#'
+#' This is data from Exercise 2.35 in Design and Analysis of Experiments, 9th
+#' Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(STAT210prob2.35)
+#'
+#' # Intelligence score for both twins
+#' plot(STAT210prob2.35$Birth_order1,
+#'      STAT210prob2.35$Birth_order2,
+#'      xlab = "Intelligence score, twin 1",
+#'      ylab = "Intelligence score, twin 2",
+#'      main = "Intelligence score for both twins in all pairs of twins")
+#'
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @references
+#'
+#' Tramo, M. J., et al. (1998) Brain size, head size, and intelligence quotient
+#' in monozygotic twins. \emph{Neurology}, \bold{50}, 1246–-1252.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210prob2.35
+#' @usage STAT210prob2.35
+#'
+"STAT210prob2.35"

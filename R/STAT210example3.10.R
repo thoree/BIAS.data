@@ -1,0 +1,38 @@
+#' STAT210example3.10: Fabric Strength and Weaving Looms
+#'
+#' A textile company weaves a fabric on a large number of looms. It would like
+#' the looms to be homogeneous so that it obtains a fabric of uniform strength.
+#' The process engineer suspects that there may be significant variations in
+#' strength between looms, and to investigate this, she selects four looms at
+#' random and takes four replicates from each loom.
+#'
+#' @format A data frame with 16 observations (rows) and 2 variables (columns).
+#' \tabular{llllr}{
+#'   \tab \bold{Column name} \tab \bold{Data type} \tab \bold{Description} \tab \bold{Values}\cr
+#'   \code{[,1]} \tab \code{Looms} \tab factor \tab 4 different looms \tab (1, 2, 3, 4)\cr
+#'   \code{[,2]} \tab \code{Strength} \tab integer \tab The strength of the fabric  \tab (90 - 99)
+#' }
+#'
+#' @details
+#'
+#' The data is from Example 3.10 in Design and Analysis of Experiments, 9th
+#' Edition, EMEA Edition.
+#'
+#' @examples
+#'
+#' # A short summary of the variables
+#' summary(STAT210example3.10)
+#'
+#' # Fabric strength for each Loom
+#' boxplot(Strength ~ Looms, data = STAT210example3.10,
+#'         col = "dodgerblue2")
+#'
+#' @source Montgomery, D. C. (2019) \emph{Design and Analysis of Experiments,
+#' 9th Edition, EMEA Edition}. New York: Wiley.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name STAT210example3.10
+#' @usage STAT210example3.10
+#'
+"STAT210example3.10"
