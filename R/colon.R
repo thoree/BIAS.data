@@ -2,9 +2,10 @@
 #'
 #' The colon data is a publicly available data set from a colon cancer study in
 #' 1999 and consists of gene expression levels (a measure of gene activity) for
-#' 2000 genes in different tissues.
+#' 1988 genes in different tissues. NOTE: The original data has 2000 genes, but
+#' 12 where discarded here due to very strange names.
 #'
-#' @format A tibble with 62 observations (rows) and 2001 variables (columns).
+#' @format A tibble with 62 observations (rows) and 1989 variables (columns).
 #'
 #' \itemize{
 #'   \item The first column, \code{[,1] Tissue}, is a factor with two levels and
