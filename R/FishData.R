@@ -31,7 +31,7 @@
 #' @source
 #'
 #' This data is a subset of real data from
-#' \href{https://www.ssb.no/statbank/table/03358/}{"Elvefisk"}, a database from
+#' \href{https://www.ssb.no/jord-skog-jakt-og-fiskeri/fiske-og-fangst/statistikk/elvefiske}{"Elvefiske"}, a database from
 #' Statistics Norway (Statistisk sentralbyrå).
 #'
 #' @docType data
