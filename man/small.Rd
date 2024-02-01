@@ -14,7 +14,7 @@
 small
 }
 \description{
-A very small data used to illustrate logistic regression.
+A very small data set used to illustrate logistic regression.
 }
 \examples{
 
