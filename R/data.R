@@ -1,4 +1,4 @@
-#' small data
+#' Small data
 #'
 #' A very small data set used to illustrate logistic regression.
 #'
