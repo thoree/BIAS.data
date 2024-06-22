@@ -15,7 +15,7 @@
 #' @examples
 #'
 #' # Linear model
-#' res <- lm(Catchest ~ Region + Species + Period, data = riverfishing)
+#' res <- lm(Catches ~ Region + Species + Period, data = riverfishing)
 #'
 #' # Box plot of catches in regions
 #' boxplot(Catches ~ Regions, data = riverfishing)
