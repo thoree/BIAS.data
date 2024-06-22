@@ -27,7 +27,7 @@
 #' lm(Y ~ x1 + x2 + x3 + x4, data = Hald.Cement)
 #'
 #' # Scatterplot matrix of the variables
-#' pairs(Hald.Cement[,2:6])
+#' pairs(Hald.Cement[,2:5])
 #'
 #' @references
 #'
