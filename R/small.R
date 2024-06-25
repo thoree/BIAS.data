@@ -17,9 +17,6 @@
 #' # extracts model coefficients from regression model
 #' coef(res1)
 #'
-#' # A short summary of the variables
-#' summary(small)
-#'
 #' @docType data
 #' @keywords datasets
 #' @name small
