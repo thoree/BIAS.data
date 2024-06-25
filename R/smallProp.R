@@ -16,9 +16,9 @@
 #' # Logistic regression model
 #' prop <- smallProp[,1:2]; x <- smallProp[,3]
 #' res1 <- glm(prop ~ x, family = binomial)
-#'
-#' # A short summary of the variables
-#' summary(smallProp)
+#' 
+#' # extracts model coefficients from regression model
+#' coef(res1)
 #'
 #' @docType data
 #' @keywords datasets
