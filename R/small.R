@@ -20,13 +20,6 @@
 #' # A short summary of the variables
 #' summary(small)
 #'
-#' # Sorted by Yield
-#' Barley_sorted <- Barley[order(-Barley$Yield), ]
-#' head(Barley_sorted)
-#'
-#' # Linear model
-#' lm(Yield ~ Variety + Soil, data = Barley)
-#'
 #' @docType data
 #' @keywords datasets
 #' @name small
