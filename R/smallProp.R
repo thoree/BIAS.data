@@ -1,4 +1,4 @@
-#' smallProp
+#' small data, accumulated format
 #'
 #' A very small data set used to illustrate logistic regression. This is dataset is on an accumulated format, which is suitable for large datasets. 
 #'
