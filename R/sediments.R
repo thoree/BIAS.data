@@ -25,10 +25,10 @@
 #'
 #' # Boxplots for the abundance of Acephala and Aeromonas
 #' par(mfrow = c(1, 2))
-#' boxplot(Acephala ~ Environment, data = sediments_raw,
+#' boxplot(Acephala ~ Environment, data = sediments,
 #'         col = c("sienna4", "tomato1"),
 #'         main = "Acephala", ylab = "Abundance")
-#' boxplot(Aeromonas ~ Environment, data = sediments_raw,
+#' boxplot(Aeromonas ~ Environment, data = sediments,
 #'         col = c("sienna4", "tomato1"),
 #'         main = "Aeromonas", ylab = "Abundance")
 #'
